@@ -1,0 +1,38 @@
+<style>
+.row{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 100%;
+bottom: 0%;
+
+background:#EEEEEE"
+}
+.hr{
+  position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 + 0.5px);
+bottom: 3px;
+
+background: #965F41;
+border-radius: 100px;
+
+}
+</style>
+<ion-tabs >
+  <ion-tab [root]="tab1Root" tabTitle="" tabIcon="home" style="color:#965F41"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="" tabIcon="trash" style="color:#965F41!important">
+  </ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="" tabIcon="cart" style="color:#965F41"></ion-tab>
+  <ion-tab [root]="tab4Root" tabTitle="" tabIcon="settings"></ion-tab>
+ 
+</ion-tabs>
+<div class="row">
+  <hr class="hr">
+<div  >
+
+</div>
+</div>
+
+ 

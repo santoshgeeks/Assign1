@@ -1,0 +1,114 @@
+page-home {
+	.mapImag {
+		box-shadow: 0px 0px 5px 3px #c8c7cc;
+	}
+	.image {
+		width: 47px;
+		height: 47px;
+		left: 24px;
+		top: 425px;
+		border-radius: 25px;
+	}
+	.driverDiv {
+		margin-top: 35px;
+		height: 150px;
+	}
+	.text {
+		position: absolute;
+		/* width: 175px; */
+		/* height: 29px; */
+		left: 75px;
+		font-family: Metropolis;
+		font-size: 25px;
+		line-height: 46px;
+		color: #333333;
+		top: 11px;
+		font-weight: 600;
+	}
+	.clook {
+		position: absolute;
+		/* width: 18px; */
+		/* height: 8px; */
+		left: 20px;
+	}
+	.dd {
+		position: absolute;
+		font-family: Metropolis;
+		font-size: 18px;
+		line-height: 0px;
+		color: #000000;
+	}
+	.ddr {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 0;
+		border-radius: 35px;
+	}
+	.ptags {
+		font-family: Metropolis;
+		font-size: 14px;
+		line-height: 14px;
+		margin: 0px;
+		/* identical to box height */
+		color: #000000;
+	}
+	.ptags1 {
+		font-family: Metropolis;
+		font-size: 11px;
+		line-height: 11px;
+		margin: 0px;
+		/* identical to box height */
+		color: #999999;
+	}
+	.star {
+		color: #FBCE50;
+		// background: #FBCE50;
+	}
+	button[ion-fab] {
+		overflow: visible;
+		position: relative;
+		ion-label {
+			position: absolute;
+			top: -8px;
+			right: 40px;
+			color: white;
+			background-color: rgba(0, 0, 0, 0.7);
+			line-height: 24px;
+			padding: 4px 8px;
+			border-radius: 4px;
+		}
+		contain: layout;
+	}
+	.fab .button-inner {}
+	margin: -4px;
+	.calling1 {
+		-webkit-transform: rotate(47deg);
+		position: absolute;
+		margin-top: -18px;
+		left: 23px;
+		width: 10px;
+		height: 6px;
+		border: solid 0.2rem white;
+		border-color: white transparent transparent transparent;
+		border-radius: 852%/56px 91px 0 0;
+	}
+	.calling2 {
+		-webkit-transform: rotate(47deg);
+		position: absolute;
+		margin-top: -21px;
+		left: 25px;
+		width: 14px;
+		height: 6px;
+		border: solid 0.2rem white;
+		border-color: white transparent transparent transparent;
+		border-radius: 852%/56px 91px 0 0;
+	}
+	ion-fab[left] {
+		left: 72%;
+	}
+	ion-fab[middle] {
+		/* margin-top: -28px; */
+		top: 86%;
+	}
+}

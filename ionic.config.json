@@ -1,0 +1,7 @@
+{
+  "name": "myAppAssg",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
